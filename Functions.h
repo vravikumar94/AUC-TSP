@@ -6,6 +6,17 @@
 #include  <math.h>
 #include <stdbool.h>         
 
+/////////////////
+//// GBM dataset
+////////////////
+
+#define MAX_GENES 12717
+#define Subject 911
+#define Sick 500 //WT
+#define Healthy 411 //Mutant
+
+
+
 /////////////////////////
 ////	Ovarian dataset
 /////////////////////////
@@ -31,12 +42,12 @@
 /////////////////////////
 ////	Leukemia dataset
 /////////////////////////
-
+/*
 #define MAX_GENES 3571
 #define Subject 72
 #define Sick 47
 #define Healthy 25
-
+*/
 
 /////////////////////////
 ////	Breast-LN dataset

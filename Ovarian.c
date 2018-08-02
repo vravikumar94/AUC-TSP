@@ -50,7 +50,7 @@ for (j=0; j<MAX_GENES; j++){
 if (Delta[i][j] == FirstMax){
 fprintf(AUCTSP,"Score\t\tGene 1\t\tGene 2\n");
 fprintf(AUCTSP,"%f\t%s\t%s\n",Delta[i][j], GeneID[i], GeneID[j]);
-fprintf(AUCTSP,"P[Sick] = %f\t P[Healthy] = %f\n", lessdisease[i][j]/(lessdisease[i][j] + highdisease[i][j]),lessnormal[i][j]/(lessnormal[i][j] + highnormal[i][j]));
+fprintf(AUCTSP,"P[WT] = %f\t P[Mutant] = %f\n", lessdisease[i][j]/(lessdisease[i][j] + highdisease[i][j]),lessnormal[i][j]/(lessnormal[i][j] + highnormal[i][j]));
 
 
 }
